@@ -1,0 +1,39 @@
+query {
+  getBooks {
+    id
+    name
+    genre
+    author
+  }
+}
+
+query {
+  getBook(id: 1) {
+    id
+    name
+    genre
+    author
+  }
+}
+
+mutation {
+ createBook (book: {name: "Harry Potter", genre: "Fantasy", author:"J.K.Rowling"}) {
+    id
+  	name
+  	genre
+  	author
+  }
+}
+
+mutation {
+ updateBook (book: {id: 1, name: "Harry Potter and the Order of the Phoenix", genre: "Fantasy", author:"J.K.Rowling"}) {
+    id
+  	name
+  	genre
+  	author
+  }
+}
+
+mutation {
+  deleteBook(id: 1)
+}
