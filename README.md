@@ -39,7 +39,7 @@ Before running the application, make sure the following list is installed/config
 
 `schema.sql`
 - Contains create table SQL statement to create the `Book` table.
-- When the application starts, Spring Boot automatically runs the contents of this file based on the two properties mentioned in the `application.yml` file: **generate-ddl** and **hibernate.ddl-auto**.
+- When the application starts, Spring Boot automatically runs the contents of this file based on the **sql** and **jpa** properties mentioned in the `application.yml` file.
 
 `schema.graphqls`
 - GraphQL schema definition which contains Queries to retrieve data and Mutations to manipulate data.
