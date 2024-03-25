@@ -10,9 +10,9 @@ Unlike traditional RESTful APIs where clients have to make multiple requests to 
 
 While GraphQL is primarily renowned for its proficiency in retrieving data through queries, it also facilitates the creation, updating, and deletion of data via mutations.
 
-Official Documentation: https://graphql.org/ for more details.
-GraphQL Custom Scalar: https://github.com/ruviniramawickrama/demo-graphql-custom-scalar-with-spring-boot/
-GraphQL Custom Directive: https://github.com/ruviniramawickrama/demo-graphql-custom-directive-with-spring-boot/
+* Official Documentation: https://graphql.org/
+* GraphQL Custom Scalar: https://github.com/ruviniramawickrama/demo-graphql-custom-scalar-with-spring-boot/
+* GraphQL Custom Directive: https://github.com/ruviniramawickrama/demo-graphql-custom-directive-with-spring-boot/
 
 ### Prerequisites
 Before running the application, make sure the following list is installed/configured on your machine:
